@@ -15,10 +15,8 @@
 
     <body>
 
-
       <!-- first row of 3 boxes -->
 
-      <div onmouseover="playclip();" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; text-align: center; width: 250px; padding: 8px;">
       <div class="box" id="box2-4">
         <a href="listenblue.html">
         <div class="front">
@@ -29,7 +27,6 @@
         </div>
         </a>
       </div>
-    </div>
 
       <div class="box" id="box2-5">
         <a href="listenverde.html">
@@ -132,24 +129,31 @@
       <!-- end of third row of 3 boxes -->
 
 
-      <audio>
-      <source src="click.mp3">
-      <source src="click.ogg">
-      </audio>
-      <div id="sounddiv"><bgsound id="sound"></div>
+        <button onclick="snd1.play()" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; text-align: center; width: 150px; padding: 8px; font-family: 'Roboto'; font-size: 0.8em; margin-left:18vw;"> curanto </button>
+        <button onclick="snd2.play()" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; text-align: center; width: 150px; padding: 8px; font-family: 'Roboto'; font-size: 0.8em;"> cueva </button>
+        <button onclick="snd3.play()" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; text-align: center; width: 150px; padding: 8px; font-family: 'Roboto'; font-size: 0.8em;"> carro </button>
+        <button onclick="snd4.play()" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; text-align: center; width: 150px; padding: 8px; font-family: 'Roboto'; font-size: 0.8em;"> hare nga poki </button>
+        <button onclick="snd5.play()" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; text-align: center; width: 150px; padding: 8px; font-family: 'Roboto'; font-size: 0.8em;"> lengua</button>
+        <button onclick="snd6.play()" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; text-align: center; width: 150px; padding: 8px; font-family: 'Roboto'; font-size: 0.8em;"> ya me voy a acordar </button>
 
 
     </body>
   </html>
 
 
+  <script>
+      var snd1 = new Audio("/audio/Curanto.mp3");
+      var snd2 = new Audio("/audio/Cueva.mp3");
+      var snd3 = new Audio("/audio/Carro.mp3");
+      var snd4 = new Audio("/audio/Hare.mp3");
+      var snd5 = new Audio("/audio/Lengua.mp3");
+      var snd6 = new Audio("/audio/Ya.mp3");
 
+  </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+<script  src="js/index.js"></script>
 
-
-
-    <script  src="js/index.js"></script>
 
 
 
