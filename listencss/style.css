@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #002225;
+}
+
+.box {
+  width: 11.3%;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box .front,
+.box .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 6s;
+  backface-visibility: hidden;
+}
+
+.box .back p {
+  padding-top: 4em;
+  padding-left: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  align-items: center;
+  font-size: 1em;
+}
+
+.box .front {
+  transform: perspective(1000px) rotateY(0deg);
+  z-index: 2;
+}
+
+.box .back {
+  transform: perspective(1000px) rotateY(180deg);
+  z-index: 1;
+}
+
+.box:hover .front {
+  transform: perspective(1000px) rotateY(-180deg);
+  z-index: 2;
+}
+
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+  z-index: 1;
+}
+
+
+#box2-4 {
+  position: absolute;
+  top: 11.3vw;
+  left: 33.9%;
+}
+
+#box2-5 {
+  position: absolute;
+  top: 11.3vw;
+  left: 45.2%;
+}
+
+#box2-6 {
+  position: absolute;
+  top: 11.3vw;
+  left: 56.5%;
+}
+
+/* this is the third row */
+
+#box3-4 {
+  position: absolute;
+  top: 22.6vw;
+  left: 33.9%;
+}
+
+#box3-5 {
+  position: absolute;
+  top: 22.6vw;
+  left: 45.2%;
+}
+
+#box3-6 {
+  position: absolute;
+  top: 22.6vw;
+  left: 56.5%;
+}
+
+
+/* this is the fourth row */
+
+#box4-4 {
+  position: absolute;
+  top: 33.9vw;
+  left: 33.9%;
+}
+
+#box4-5 {
+  position: absolute;
+  top: 33.9vw;
+  left: 45.2%;
+}
+
+#box4-6 {
+  position: absolute;
+  top: 33.9vw;
+  left: 56.5%;
+}
