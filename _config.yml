@@ -5,3 +5,20 @@ plugins:
 
 
 url: "https://delfimpandiani.github.io"
+
+
+title: Delfina - Human Digitalist
+description: Delfina S. Martinez Pandiani's Personal Website
+
+# Add  menu items here
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Research
+    url: /research
+  - title: Art
+    url: /art
+  - title: Contact
+    url: /contact
