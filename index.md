@@ -1,13 +1,12 @@
 ---
 layout: default
-title: My Awesome Site
+title: Delfina - Human Digitalist
 ---
 
-# Welcome dfbegrsndtmfvto Myfffff Awesome Site!
+# Human Digitalist
 
-This is my first webpage using Jekyll and GitHub Pages. 
+Delfina S. Martinez Pandiani's Personal Website
+
+## What is a modern human?
 
 
-musings
-
-# Welcome to Myfffff Awesome Site!
