@@ -3,15 +3,41 @@ layout: post
 title: About
 ---
 
-Undoubtably one of the great minds of our time, Christopher Hitchens challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme is designed in his memory.
 
-<figure>
-  <img alt="Christopher Hitchens" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Hitchens_2008-04-24_001.jpg" />
-  <figcaption>
-    Photo by Fri Tanke and licensed under the <a href="https://creativecommons.org/licenses/by/3.0/deed.en">Creative Commons Attribution 3.0 Unported</a> license.
-  </figcaption>
-</figure>
+# About me
+I am Assistant Professor of Cultural Data Analysis at the University of Amsterdam. Based in the Department of Media Studies and the Institute for Logic, Language, and Computation. As a scientist, artist, and intersectional humanist, I challenge and play with assumed binaries, like public/private, nature/culture, male/female, and white/colored. Overall, I am committed to producing knowledge that explores how human and non-human agents adapt within the dynamic interplay of technological advancement, societal values, and cultural diversity.
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
 
->Christopher Eric Hitchens (13 April 1949 – 15 December 2011) was an Anglo-American author, columnist, essayist, orator, religious and literary critic, social critic, and journalist. Hitchens was the author, co-author, editor or co-editor of over 30 books, including five collections of essays on culture, politics and literature. A staple of public discourse, his confrontational style of debate made him both a lauded intellectual and a controversial public figure. He contributed to New Statesman, The Nation, The Weekly Standard, The Atlantic, London Review of Books, The Times Literary Supplement, Slate, Free Inquiry and Vanity Fair.
+I research what it means to be human in the era of (generative) AI.​ I focus on human-centered and ethical AI, computational cultural analytics, and critical data studies. I emphasize multimodal and explainable software for analyzing cultural heritage data. 
+
+
+Previously, I was a post-doctoral researcher at Centrum Wiskunde & Informatica, the national research institute for mathematics and computer science in the Netherlands. I have a Ph.D. in Computer Science and Engineering and a M.A. in Digital Humanities and Digital Knowledge from Università di Bologna  (Italy). I have a Bachelor's degree in Human Evolutionary Biology from Harvard University (U.S.A.), with a minor in Gender and Sexuality Studies.
+ 
+
+<!-- Central Image -->
+![Print](assets/images/non-binary.jpg)
+
+<!-- <figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Hitchens_2008-04-24_001.jpg" />
+</figure> -->
+
+## Education
+
+**Ph.D. University of Bologna**  
+_2020-2024_  
+Computer Science & Engineering  
+- Explainable AI, Knowledge Engineering, Computer Vision, Digital Humanities  
+- Thesis: *Mind the Gap(s): Cognitive-Inspired AI for High-Level Visual Sensemaking. Towards Abstract Concept Image Classification.*
+
+**M.A. University of Bologna**  
+_2018-2020_  
+Digital Humanities and Digital Knowledge  
+- Digital Humanities, Augmented Reality, Civic Education  
+- Thesis: *Semantic & Interactive Technologies for Civic Education: Ancient Classical Polychromy as a Case Study.*
+
+**B.A. Harvard University**  
+_2013-2017_  
+Human Evolutionary Biology (summa cum laude)  
+- Human Behavioral Coding, Post-Conflict Reconciliation, Data Analysis  
+- Minor degree in Studies of Women, Gender, and Sexuality  
+- Thesis: *Reconciliation in Homo sapiens: Behavioral Perspectives on the Human Post-Conflict Period.*
