@@ -3,6 +3,5 @@ remote_theme: patdryburgh/hitchens
 plugins:
   - jekyll-remote-theme
 
-baseurl: "/humandigitalist"
 
 url: "https://delfimpandiani.github.io"
