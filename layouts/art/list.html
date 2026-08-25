@@ -2,9 +2,7 @@
   {{ .Scratch.Set "scope" "list" }}
 
   <header class="art-header">
-    <div class="art-terminal">
-      <span class="art-prompt">&gt; INITIALIZING ART SUBSYSTEM...</span>
-    </div>
+
     <h1 class="art-title">{{ .Title }}</h1>
     <div class="art-intro prose dark:prose-invert max-w-3xl">
       {{ .Content }}
@@ -21,7 +19,7 @@
       {{ with $page }}
         {{ $preview := "" }}
         {{ if eq .File.TranslationBaseName "painting" }}
-          {{ $preview = resources.Get "img/art/painting/a-flor-de-piel-series/pedicure.png" }}
+          {{ $preview = resources.Get "img/art/painting/cracky-series/crack-haha.png" }}
         {{ else if eq .File.TranslationBaseName "creative-writing" }}
           {{ $preview = resources.Get "img/art/creative_writing/the-capsule/the-capsule2.png" }}
         {{ else if eq .File.TranslationBaseName "murals" }}

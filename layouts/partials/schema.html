@@ -1,0 +1,40 @@
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" "Delfina S. Martinez Pandiani"
+  "alternateName" (slice
+    "Delfi Pandiani"
+    "Delfina Pandiani"
+    "Delfina Sol Pandiani"
+    "Delfina Martinez Pandiani"
+    "Delfina Sol Martinez Pandiani"
+    "Delfi Sol Pandiani"
+  )
+  "url" site.BaseURL
+  "sameAs" (slice
+    "https://www.uva.nl/en/profile/m/a/d.s.c.martinez-pandiani/d.s.c.martinez-pandiani.html"
+    "https://scholar.google.com/citations?hl=en&user=aWasWbEAAAAJ"
+    "https://www.linkedin.com/in/dmartinezpandiani/"
+    "https://github.com/delfimpandiani"
+    "https://www.qfinformatics.com/"
+  )
+  "affiliation" (dict
+    "@type" "Organization"
+    "name" "University of Amsterdam"
+    "url" "https://www.uva.nl/en/profile/m/a/d.s.c.martinez-pandiani/d.s.c.martinez-pandiani.html"
+  )
+  "jobTitle" "Assistant Professor of Cultural Data Analysis"
+  "knowsAbout" (slice
+    "Critical AI"
+    "Cultural Data Analysis"
+    "Painting"
+    "Mixed Media"
+    "Creative Writing"
+    "Queer Informatics"
+    "Computer Vision"
+    "Digital Humanities"
+  )
+}}
+<script type="application/ld+json">
+{{ $schema | jsonify }}
+</script>

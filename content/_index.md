@@ -18,12 +18,12 @@ description: "Personal website of Delfi Sol Pandiani — critical AI, painting, 
   <div class="gp-scanlines"></div>
 </div>
 
-Personal website of Delfi Sol Pandiani, investigating and breaking binaries.
+Personal website of Delfi Sol Pandiani, investigating and breaking codified binaries.
 
 <div class="landing-nav">
+  <a href="/about/" class="nav-link">[ABOUT]</a>
   <a href="/art/" class="nav-link">[ART]</a>
   <a href="/research/" class="nav-link">[RESEARCH]</a>
   <a href="/publications/" class="nav-link">[PUBLICATIONS]</a>
   <a href="/teaching/" class="nav-link">[TEACHING]</a>
-  <a href="/about/" class="nav-link">[ABOUT]</a>
 </div>

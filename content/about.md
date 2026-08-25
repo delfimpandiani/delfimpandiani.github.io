@@ -18,17 +18,17 @@ description: "About Delfi Sol Martinez Pandiani — critical scholar, artist, an
 > COHERENT STORY READY
 ```
 
-Delfi (Sol Martinez Pandiani) *[they//them]* is an academic and creative working at the intersection of **critical AI** studies, **painting**, **writing**, and **code**. They are currently [Assistant Professor of Cultural Data Analysis at the University of Amsterdam](https://www.uva.nl/en/profile/m/a/d.s.c.martinez-pandiani/d.s.c.martinez-pandiani.html), appointed across the Department of Media Studies and the [Institute for Logic, Language, and Computation (ILLC)](https://illc.uva.nl/).
+Delfi (Sol Martinez Pandiani) *[they//them]* is an academic and creative researcher playing with and challenging the codification of binaries. 
 
-Their research explores how abstract cultural concepts — especially **identity**, **toxicity**, and **vulnerability** — are computationally modeled in datafied environments. They audit, develop, and critique AI systems, aiming to surface new ways of thinking about power, representation, and technological change.
+They are currently Assistant Professor of Cultural Data Analysis at the [University of Amsterdam](https://www.uva.nl/en/profile/m/a/d.s.c.martinez-pandiani/d.s.c.martinez-pandiani.html), appointed across the Department of Media Studies and the [Institute for Logic, Language, and Computation (ILLC)](https://illc.uva.nl/). Their *[research](/research)* explores how abstract cultural concepts — especially **identity**, **toxicity**, and **vulnerability** — are computationally modeled in datafied environments. They audit, develop, and critique AI systems, aiming to surface new ways of thinking about power, representation, and technological change.
 
-Alongside this, Delfi maintains an active artistic practice in **painting**, **installation**, **mixed media**, and **creative writing**.
+Alongside this, Delfi maintains an active *[artistic](/art)* practice in **painting**, **installation**, **mixed media**, and **creative writing**.
 
 They are co-founder of the [Queer and Feminist Informatics Network (QFIN)](https://www.qfinformatics.com/), and have been developing creative projects and workshops that combine critical theory with artistic practice — such as **adversarial drag** against facial and gender surveillance, and other interventions that play with, challenge, and attempt to break codified binaries (male/female, public/private, toxic/safe, white/colored, nature/culture).
 
 They also co-coordinate the [Cultural Data & AI track of the Master's in Media Studies](https://www.uva.nl/shared-content/programmas/en/masters/cultural-data-ai/cultural-data-and-artificial-intelligence.html) at the UvA, which combines critical inquiry with data science.
 
-Previously, Delfi was a post-doctoral researcher at the [Human-Centered Data-Analytics (HCDA)](https://www.cwi.nl/en/research/human-centered-data-analytics/) group at Centrum Wiskunde & Informatica (CWI) in Amsterdam. They have a Ph.D. in Computer Science and Engineering and a M.A. in Digital Humanities and Digital Knowledge from Università di Bologna (Italy), and a Bachelor's degree in Human Evolutionary Biology (summa cum laude) with a minor in Gender and Sexuality Studies from Harvard University (U.S.A.).
+Previously, Delfi was a post-doctoral researcher at the [Human-Centered Data-Analytics (HCDA)](https://www.cwi.nl/en/research/human-centered-data-analytics/) group at Centrum Wiskunde & Informatica (CWI) in Amsterdam. They have a Ph.D. in [Computer Science and Engineering](https://disi.unibo.it/it) and a M.A. in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) from the Università di Bologna (Italy), and a Bachelor's degree in [Human Evolutionary Biology](https://heb.fas.harvard.edu/) (summa cum laude) with a minor in Gender and Sexuality Studies from Harvard University (U.S.A.).
 
 {{< /install >}}
 
