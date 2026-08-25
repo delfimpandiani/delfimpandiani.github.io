@@ -1,6 +1,6 @@
 ---
 title: "ABOUT"
-description: "About Delfina S. Martinez Pandiani — critical scholar, artist, and co-founder of QFIN, working across critical AI and creative practice."
+description: "About Delfi ol. Martinez Pandiani — critical scholar, artist, and co-founder of QFIN, working across critical AI and creative practice."
 ---
 
 
@@ -55,3 +55,6 @@ Previously, Delfi was a post-doctoral researcher at the [Human-Centered Data-Ana
 [LINKEDIN >](https://www.linkedin.com/in/dmartinezpandiani/)
 
 
+## Academic Bio (150 words)
+
+Delfi Sol Martinez Pandiani is Assistant Professor of Cultural Data Analysis at the University of Amsterdam (UvA), at the Institute for Logic, Language and Computation (ILLC) and the Department of Media Studies. Their work explores how abstract social concepts—such as identity, toxicity, and vulnerability—are negotiated and computationally modeled in datafied environments. Drawing on critical AI studies, computer vision, digital humanities, and media and queer theory, they specialize in auditing, developing, and critiquing AI systems. They challenge binary assumptions like public/private and nature/culture, aiming to surface new ways of thinking about power, representation, and technological change. At the UvA, Delfina co-coordinates the MA track Cultural Data & AI, which combines critical inquiry with data science, and co-founded the Queer and Feminist Informatics Network (QFin). They hold a PhD in Computer Science, an MA in Digital Humanities from the University of Bologna, and a BA in Human Evolutionary Biology from Harvard University.
