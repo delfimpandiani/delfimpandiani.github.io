@@ -1,0 +1,5 @@
+{{ $file := resources.Get (.Get "file") }}
+{{ $label := .Get "label" | default "DOWNLOAD" }}
+{{ if $file }}
+<a class="download-link" href="{{ $file.RelPermalink }}" download>{{ $label }}</a>
+{{ end }}

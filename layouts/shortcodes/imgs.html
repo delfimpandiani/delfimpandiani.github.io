@@ -1,0 +1,10 @@
+{{ $files := split (.Get "files") " " }}
+<section class="gallery-grid">
+  {{ range $files }}
+    {{ with resources.Get . }}
+      <figure class="gallery-item">
+        <img src="{{ .RelPermalink }}" alt="" loading="lazy" decoding="async">
+      </figure>
+    {{ end }}
+  {{ end }}
+</section>

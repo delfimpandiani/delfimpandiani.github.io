@@ -1,25 +1,60 @@
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 10
+  weight = 20
+
+
+[[main]]
+  name = "Art"
+  pageRef = "art"
+  weight = 30
+
+  [[main]]
+    name = "Painting"
+    pageRef = "art/painting"
+    weight = 31
+    parent = "Art"
+
+  [[main]]
+    name = "Murals"
+    pageRef = "art/murals"
+    weight = 32
+    parent = "Art"
+
+  [[main]]
+    name = "Installations"
+    pageRef = "art/installations"
+    weight = 33
+    parent = "Art"
+
+ [[main]]
+    name = "Mixed Media"
+    pageRef = "art/mixed-media"
+    weight = 34
+    parent = "Art"
+
+  [[main]]
+    name = "Creative Writing"
+    pageRef = "art/creative-writing"
+    weight = 35
+    parent = "Art"
+
 
 [[main]]
   name = "Research"
   pageRef = "research"
-  weight = 20
+  weight = 40
 
 [[main]]
   name = "Publications"
   pageRef = "publications"
-  weight = 30
+  weight = 50
 
 [[main]]
   name = "Teaching"
   pageRef = "teaching"
-  weight = 40
+  weight = 60
 
-[[main]]
-  name = "Workshop Guide"
-  pageRef = "guide"
-  weight = 50
 
+
+ 

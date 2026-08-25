@@ -1,0 +1,113 @@
+<div class="research-diagram-wrapper" style="width: 100%; max-width: 1000px; margin: 2rem auto; overflow-x: auto;">
+  <svg viewBox="0 0 960 760" width="100%" height="auto" style="min-width: 700px; display: block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b" />
+      </marker>
+      <marker id="arrow-accent" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 1 L 10 5 L 0 9 z" fill="#7c3aed" />
+      </marker>
+      <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.07"/>
+      </filter>
+    </defs>
+
+    <!-- CONNECTOR PATHS -->
+    <line x1="480" y1="95" x2="480" y2="140" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)" />
+    
+    <path d="M 480 220 L 480 250 L 170 250 L 170 280" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 480 220 L 480 280" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 480 220 L 480 250 L 790 250 L 790 280" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Paper Bridge: The Hallucinated Subjects (Identity <-> Vulnerability) -->
+    <path d="M 285 350 Q 480 315 675 350" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrow-accent)" marker-start="url(#arrow-accent)" />
+    
+    <!-- Paper Bridge: Tracing a Memetic Journey (Toxicity <-> Identity & Vulnerability) -->
+    <path d="M 365 410 Q 285 450 200 480" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)" />
+    <path d="M 595 410 Q 675 450 760 480" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)" />
+
+    <!-- 3 Pillars to Method -->
+    <path d="M 170 490 L 170 540 L 480 540 L 480 570" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 480 490 L 480 570" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 790 490 L 790 540 L 480 540 L 480 570" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- TIER 1: THEORETICAL FOUNDATION -->
+    <g filter="url(#shadow)">
+      <rect x="180" y="25" width="600" height="70" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+      <text x="480" y="50" text-anchor="middle" font-size="13" font-weight="700" fill="#334155" letter-spacing="0.5">CORE THEORETICAL FOUNDATION</text>
+      <text x="480" y="72" text-anchor="middle" font-size="12" fill="#64748b">Critico-Computational Methods • Technofeminism • Queer Theory • Anticolonial Epistemologies</text>
+    </g>
+
+    <!-- TIER 2: CENTRAL INQUIRY APPARATUS -->
+    <g filter="url(#shadow)">
+      <rect x="180" y="145" width="600" height="75" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" />
+      <text x="480" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" letter-spacing="0.5">CENTRAL INQUIRY APPARATUS</text>
+      <text x="480" y="193" text-anchor="middle" font-size="12" font-weight="600" fill="#1e293b">Operationalization of Abstract Concepts into Computation</text>
+      <text x="480" y="210" text-anchor="middle" font-size="11" fill="#64748b">Taxonomic Flattening • Latency • Extraction • Algorithmic Interpellation</text>
+    </g>
+
+    <!-- BRIDGE PILL: THE HALLUCINATED SUBJECTS -->
+    <g filter="url(#shadow)">
+      <rect x="345" y="238" width="270" height="26" rx="13" fill="#7c3aed" />
+      <text x="480" y="255" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">BRIDGE: The Hallucinated Subjects</text>
+    </g>
+
+    <!-- TIER 3: THE THREE PILLARS -->
+    <!-- Pillar 1: Identity -->
+    <g filter="url(#shadow)">
+      <rect x="55" y="285" width="230" height="205" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="55" y="285" width="230" height="36" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="170" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">IDENTITY CATEGORIES</text>
+      <text x="70" y="340" font-size="11" fill="#475569">• Binary & Taxonomic Modeling</text>
+      <text x="70" y="360" font-size="11" fill="#475569">• Marked vs. Unmarked Norms</text>
+      <text x="70" y="380" font-size="11" fill="#475569">• Latent Visual Grammars</text>
+      <text x="70" y="400" font-size="11" fill="#475569">• Hallucinated Subjects ("You"/"I")</text>
+      
+      <rect x="68" y="425" width="204" height="24" rx="4" fill="#ede9fe" />
+      <text x="170" y="441" text-anchor="middle" font-size="10.5" font-weight="600" fill="#6d28d9">QueerGen • Echoes of NSFW</text>
+      <rect x="68" y="454" width="204" height="24" rx="4" fill="#ede9fe" />
+      <text x="170" y="470" text-anchor="middle" font-size="10.5" font-weight="600" fill="#6d28d9">Mapping the Latent Image</text>
+    </g>
+
+    <!-- Pillar 2: Toxicity -->
+    <g filter="url(#shadow)">
+      <rect x="365" y="285" width="230" height="205" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="365" y="285" width="230" height="36" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="480" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">TOXICITY & MEMETICS</text>
+      <text x="380" y="340" font-size="11" fill="#475569">• Target, Intent & Tactic Triad</text>
+      <text x="380" y="360" font-size="11" fill="#475569">• Multimodal Interaction Gaps</text>
+      <text x="380" y="380" font-size="11" fill="#475569">• Memetic Trauma Extractivism</text>
+      <text x="380" y="400" font-size="11" fill="#475569">• Implicit Identity Target-Bias</text>
+      
+      <rect x="378" y="425" width="204" height="24" rx="4" fill="#e0f2fe" />
+      <text x="480" y="441" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0369a1">'Toxic' Memes Survey (OSNEM)</text>
+      <rect x="378" y="454" width="204" height="24" rx="4" fill="#e0f2fe" />
+      <text x="480" y="470" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0369a1">Tracing a Memetic Journey (AoIR)</text>
+    </g>
+
+    <!-- Pillar 3: Vulnerability -->
+    <g filter="url(#shadow)">
+      <rect x="675" y="285" width="230" height="205" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="675" y="285" width="230" height="36" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="790" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">VULNERABILITY AS PRACTICE</text>
+      <text x="690" y="340" font-size="11" fill="#475569">• The "Protection Paradox"</text>
+      <text x="690" y="360" font-size="11" fill="#475569">• Relational Pipeline Precarization</text>
+      <text x="690" y="380" font-size="11" fill="#475569">• Coercive Coherence in GenAI</text>
+      <text x="690" y="400" font-size="11" fill="#475569">• Exposure & Narrative Fixing</text>
+      
+      <rect x="688" y="425" width="204" height="24" rx="4" fill="#fef3c7" />
+      <text x="790" y="441" text-anchor="middle" font-size="10.5" font-weight="600" fill="#b45309">Vulnerabilizing Practices (FAccT)</text>
+      <rect x="688" y="454" width="204" height="24" rx="4" fill="#ede9fe" />
+      <text x="790" y="470" text-anchor="middle" font-size="10.5" font-weight="600" fill="#6d28d9">The Hallucinated Subjects</text>
+    </g>
+
+    <!-- TIER 4: METHODOLOGY -->
+    <g filter="url(#shadow)">
+      <rect x="180" y="575" width="600" height="95" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.5" />
+      <text x="480" y="605" text-anchor="middle" font-size="14" font-weight="700" fill="#f8fafc" letter-spacing="0.5">METHODOLOGICAL STANCE: “FOLLOWING THE GLITCH”</text>
+      <text x="480" y="630" text-anchor="middle" font-size="12" fill="#94a3b8">• Empirical Audits of Latent Spaces, LLMs & Web Datasets</text>
+      <text x="480" y="648" text-anchor="middle" font-size="12" fill="#94a3b8">• Deconstructing Annotation Schemas & AI4SG Pipelines</text>
+      <text x="480" y="666" text-anchor="middle" font-size="12" fill="#94a3b8">• Affirming Strategic Opacity, Epistemic Refusal & Queer Ungovernability</text>
+    </g>
+  </svg>
+</div>

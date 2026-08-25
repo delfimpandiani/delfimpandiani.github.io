@@ -1,10 +1,29 @@
 ---
-title: "Dr. Reginald Huffington-Smythe III"
-description: "Professor of Postmodern Semiotics. Amateur Competitive Crossword Solver. Reluctant dog owner."
+title: "Broken Binaries"
+description: "Personal website of Delfi Sol Pandiani — critical AI, painting, writing, code."
 ---
 
-Hi! I'm a Professor of Postmodern Semiotics at the University of Upper Boroughwick, where I've been asking "but what does it *mean*?" about increasingly mundane objects since 2009.
+```terminal
+> SYSTEM STATUS: GLITCHED
+> IMAGE INTEGRITY: COMPROMISED
+> NAVIGATION: REQUIRED
+```
 
-My research focuses on the hidden power structures embedded in everyday language — parking tickets, IKEA manuals, corporate mission statements, and the passive-aggressive subtext of "per my last email." I'm also, inexplicably, a competitive crossword solver.
+<div class="glitch-hero" style="--glitch-img: url('img/art/painting/cracky-series/crack-haha.jpeg');">
+  <div class="glitch-base"></div>
+  <div class="glitch-slice" style="--i:0"></div>
+  <div class="glitch-slice" style="--i:1"></div>
+  <div class="glitch-slice" style="--i:2"></div>
+  <div class="glitch-slice" style="--i:3"></div>
+  <div class="glitch-slice" style="--i:4"></div>
+  <div class="glitch-slice" style="--i:5"></div>
+  <div class="glitch-scanlines"></div>
+</div>
 
-Outside of work I play the clarinet badly, walk my dog Derrida reluctantly, and have very strong opinions about the Oxford comma that I will share unprompted.
+<div class="landing-nav">
+  <a href="/art/" class="nav-link">[ART.SYS]</a>
+  <a href="/research/" class="nav-link">[RESEARCH.SYS]</a>
+  <a href="/publications/" class="nav-link">[PUBLICATIONS.SYS]</a>
+  <a href="/teaching/" class="nav-link">[TEACHING.SYS]</a>
+  <a href="/about/" class="nav-link">[ABOUT.SYS]</a>
+</div>

@@ -4,7 +4,6 @@ date: 2024-01-01
 showDate: false
 showReadingTime: false
 showAuthor: false
-showTableOfContents: true
 ---
 
 > Welcome to the tutorial! By the end of this tutorial, this webpage will be yours! Yay!

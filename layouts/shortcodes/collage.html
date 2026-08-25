@@ -1,0 +1,12 @@
+{{ $folder := .Get "folder" | default "img/art/painting" }}
+{{ $pattern := printf "%s/**" $folder }}
+{{ $imgs := resources.Match $pattern }}
+
+<section class="collage-grid">
+  {{ range $imgs }}
+    {{ $n := .Name }}
+    {{ if and (not (findRE "painting_wix" $n)) (not (findRE "\\.avif$" $n)) (not (findRE "%20\\." $n)) }}
+      <img src="{{ .RelPermalink }}" alt="" loading="lazy" decoding="async">
+    {{ end }}
+  {{ end }}
+</section>

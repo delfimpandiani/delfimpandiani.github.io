@@ -1,32 +1,3 @@
-# How to Make This Site Yours
-
-This file is your cheat sheet. Everything you need to change is listed below.
-
-## 1. Your name and identity
-
-File: `config/_default/languages.en.toml`
-
-Change:
-- `title` — your full name
-- `description` — a one-line description of who you are
-- `params.author.name` — your name
-- `params.author.email` — your email
-- `params.author.headline` — your role / affiliation
-- `params.author.bio` — a short bio (2–3 sentences)
-- `params.author.links` — your social/contact links
-
-## 2. Your homepage text
-
-File: `content/_index.md`
-
-Replace the placeholder text with your own welcome message.
-
-## 3. Your about page
-
-File: `content/about.md`
-
-Replace the fake bio with your own. Keep the structure or change it — it's just Markdown.
-
 ## 4. Your publications
 
 File: `content/publications.md`

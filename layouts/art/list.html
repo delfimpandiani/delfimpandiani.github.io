@@ -1,0 +1,59 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  <header class="art-header">
+    <div class="art-terminal">
+      <span class="art-prompt">&gt; INITIALIZING ART SUBSYSTEM...</span>
+    </div>
+    <h1 class="art-title">{{ .Title }}</h1>
+    <div class="art-intro prose dark:prose-invert max-w-3xl">
+      {{ .Content }}
+    </div>
+    <div class="art-terminal mt-6">
+      <span class="art-prompt cursor">&gt; SELECT CATEGORY TO EXPLORE_</span>
+    </div>
+  </header>
+
+  <section class="art-grid">
+    {{ $order := slice "painting" "murals" "installations" "mixed-media" "creative-writing" }}
+    {{ range $order }}
+      {{ $page := $.Site.GetPage (printf "/art/%s" .) }}
+      {{ with $page }}
+        {{ $preview := "" }}
+        {{ if eq .File.TranslationBaseName "painting" }}
+          {{ $preview = resources.Get "img/art/painting/a-flor-de-piel-series/pedicure.png" }}
+        {{ else if eq .File.TranslationBaseName "creative-writing" }}
+          {{ $preview = resources.Get "img/art/creative_writing/the-capsule/the-capsule2.png" }}
+        {{ else if eq .File.TranslationBaseName "murals" }}
+          {{ $preview = resources.Get "img/art/murals/ayudame/ayudame1.png" }}
+        {{ else if eq .File.TranslationBaseName "installations" }}
+          {{ $preview = resources.Get "img/art/installation/phase-transitioning/phase4.png" }}
+        {{ else if eq .File.TranslationBaseName "mixed-media" }}
+          {{ $preview = resources.Get "img/art/mixedmedia/relieves/relieves4.png" }}
+        {{ end }}
+
+        <a href="{{ .RelPermalink }}" class="art-card">
+          {{ with $preview }}
+            <div class="art-card-image">
+              <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy">
+              <div class="art-card-overlay">
+                <span class="art-card-arrow">&rarr;</span>
+              </div>
+            </div>
+          {{ else }}
+            <div class="art-card-image art-card-no-image">
+              <span class="art-card-placeholder">NO_IMG</span>
+              <div class="art-card-overlay">
+                <span class="art-card-arrow">&rarr;</span>
+              </div>
+            </div>
+          {{ end }}
+          <div class="art-card-content">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Description }}</p>
+          </div>
+        </a>
+      {{ end }}
+    {{ end }}
+  </section>
+{{ end }}

@@ -1,0 +1,11 @@
+{{ $img := resources.Get "img/delfi-sol-martinez-pandiani.png" }}
+{{ if $img }}
+  {{ $final := $img }}
+  {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+  {{ if not (or $disableImageOptimization (eq $img.MediaType.SubType "svg")) }}
+    {{ $final = $img.Fill (print "600x600 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+  {{ end }}
+  <header class="profile-image">
+    <img src="{{ $final.RelPermalink }}" alt="Delfina S. Martinez Pandiani">
+  </header>
+{{ end }}

@@ -1,0 +1,80 @@
+<div class="glitch-diagram-wrapper" style="width:100%;max-width:960px;margin:2rem auto;overflow-x:auto;">
+  <svg viewBox="0 0 960 620" width="100%" height="auto" style="min-width:680px;display:block;background:#09090b;border-radius:8px;border:1px solid #27272a;box-shadow:0 0 25px rgba(0,255,102,0.04);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;">
+    <defs>
+      <marker id="arr-g" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#00ff66"/></marker>
+      <marker id="arr-p" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#ff007f"/></marker>
+    </defs>
+
+    <!-- Grid lines -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M 30 0 L 0 0 0 30" fill="none" stroke="#18181b" stroke-width="0.7"/></pattern>
+    <rect width="960" height="620" fill="url(#grid)" />
+
+    <!-- Flow paths -->
+    <line x1="480" y1="80" x2="480" y2="125" stroke="#00ff66" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arr-g)" />
+    
+    <path d="M 480 200 L 480 230 L 170 230 L 170 260" fill="none" stroke="#3f3f46" stroke-width="1.5" marker-end="url(#arr-g)" />
+    <path d="M 480 200 L 480 260" fill="none" stroke="#3f3f46" stroke-width="1.5" marker-end="url(#arr-g)" />
+    <path d="M 480 200 L 480 230 L 790 230 L 790 260" fill="none" stroke="#3f3f46" stroke-width="1.5" marker-end="url(#arr-g)" />
+
+    <!-- Lateral cross-links -->
+    <path d="M 285 320 Q 480 290 675 320" fill="none" stroke="#ff007f" stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#arr-p)" marker-start="url(#arr-p)" />
+
+    <!-- Convergence to Method -->
+    <path d="M 170 420 L 170 460 L 480 460 L 480 490" fill="none" stroke="#3f3f46" stroke-width="1.5" marker-end="url(#arr-g)" />
+    <path d="M 480 420 L 480 490" fill="none" stroke="#3f3f46" stroke-width="1.5" marker-end="url(#arr-g)" />
+    <path d="M 790 420 L 790 460 L 480 460 L 480 490" fill="none" stroke="#3f3f46" stroke-width="1.5" marker-end="url(#arr-g)" />
+
+    <!-- LEVEL 1: THEORY -->
+    <rect x="180" y="20" width="600" height="60" rx="4" fill="#121217" stroke="#27272a" stroke-width="1.5" />
+    <rect x="180" y="20" width="4" height="60" fill="#00ff66" />
+    <text x="480" y="44" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00ff66" letter-spacing="1">// CRITICO-COMPUTATIONAL SENSIBILITY</text>
+    <text x="480" y="63" text-anchor="middle" font-size="10.5" fill="#a1a1aa">Technofeminism • Queer Theory • Anticolonial Epistemologies • STS</text>
+
+    <!-- LEVEL 2: APPARATUS -->
+    <rect x="180" y="125" width="600" height="75" rx="4" fill="#121217" stroke="#27272a" stroke-width="1.5" />
+    <rect x="180" y="125" width="4" height="75" fill="#ff007f" />
+    <text x="480" y="150" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ff007f" letter-spacing="1">// OPERATIONALIZATION OF ABSTRACT CONCEPTS</text>
+    <text x="480" y="171" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ffffff">Taxonomic Flattening • Latency • Extraction • Algorithmic Interpellation</text>
+    <text x="480" y="188" text-anchor="middle" font-size="10" fill="#71717a">Transforming fluid cultural phenomena into discrete, computable variables</text>
+
+    <!-- LEVEL 3: THE THREE AXES -->
+    <!-- Axis 1: Identity -->
+    <rect x="55" y="260" width="230" height="160" rx="4" fill="#121217" stroke="#27272a" stroke-width="1.5" />
+    <rect x="55" y="260" width="230" height="28" fill="#18181b" />
+    <text x="170" y="279" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00ff66">> IDENTITY</text>
+    <text x="70" y="308" font-size="10" fill="#d4d4d8">• Marked vs. Unmarked Norms</text>
+    <text x="70" y="326" font-size="10" fill="#d4d4d8">• Pre-training Adult Taxonomies</text>
+    <text x="70" y="344" font-size="10" fill="#d4d4d8">• Latent Visual Grammars</text>
+    <text x="70" y="362" font-size="10" fill="#d4d4d8">• Hallucinated Subjects ("You"/"I")</text>
+    <rect x="68" y="380" width="204" height="22" rx="3" fill="#1e1e24" stroke="#27272a"/>
+    <text x="170" y="394" text-anchor="middle" font-size="9" fill="#00ff66">QueerGen • Latent Image • NSFW</text>
+
+    <!-- Axis 2: Toxicity -->
+    <rect x="365" y="260" width="230" height="160" rx="4" fill="#121217" stroke="#27272a" stroke-width="1.5" />
+    <rect x="365" y="260" width="230" height="28" fill="#18181b" />
+    <text x="480" y="279" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00ff66">> TOXICITY</text>
+    <text x="380" y="308" font-size="10" fill="#d4d4d8">• Target–Intent–Tactic Triad</text>
+    <text x="380" y="326" font-size="10" fill="#d4d4d8">• Multimodal Failure Modes</text>
+    <text x="380" y="344" font-size="10" fill="#d4d4d8">• Memetic Trauma Extractivism</text>
+    <text x="380" y="362" font-size="10" fill="#d4d4d8">• Content Moderation Taxonomies</text>
+    <rect x="378" y="380" width="204" height="22" rx="3" fill="#1e1e24" stroke="#27272a"/>
+    <text x="480" y="394" text-anchor="middle" font-size="9" fill="#00ff66">Toxic Memes • Memetic Journey</text>
+
+    <!-- Axis 3: Vulnerability -->
+    <rect x="675" y="260" width="230" height="160" rx="4" fill="#121217" stroke="#27272a" stroke-width="1.5" />
+    <rect x="675" y="260" width="230" height="28" fill="#18181b" />
+    <text x="790" y="279" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00ff66">> VULNERABILITY</text>
+    <text x="690" y="308" font-size="10" fill="#d4d4d8">• The "Protection Paradox"</text>
+    <text x="690" y="326" font-size="10" fill="#d4d4d8">• Pipeline-Induced Precarization</text>
+    <text x="690" y="344" font-size="10" fill="#d4d4d8">• Coercive Coherence in GenAI</text>
+    <text x="690" y="362" font-size="10" fill="#d4d4d8">• Secondary Exposure & Fixing</text>
+    <rect x="688" y="380" width="204" height="22" rx="3" fill="#1e1e24" stroke="#27272a"/>
+    <text x="790" y="394" text-anchor="middle" font-size="9" fill="#00ff66">FAccT '26 • Hallucinated Subjects</text>
+
+    <!-- LEVEL 4: METHODOLOGY -->
+    <rect x="180" y="490" width="600" height="85" rx="4" fill="#121217" stroke="#00ff66" stroke-width="1.5" />
+    <text x="480" y="515" text-anchor="middle" font-size="12" font-weight="700" fill="#00ff66" letter-spacing="1.5">// METHODOLOGICAL STANCE: "FOLLOWING THE GLITCH"</text>
+    <text x="480" y="536" text-anchor="middle" font-size="10.5" fill="#e4e4e7">Empirical Audits • Deconstructing Classifiers • Strategic Opacity & Queer Ungovernability</text>
+    <text x="480" y="554" text-anchor="middle" font-size="10" fill="#71717a">Treating systemic breakdown as a diagnostic tool rather than an engineering error</text>
+  </svg>
+</div>

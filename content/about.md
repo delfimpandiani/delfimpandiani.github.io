@@ -1,39 +1,57 @@
 ---
-title: "About"
-date: 2024-01-01
-showDate: false
-showReadingTime: false
-showAuthor: false
+title: "ABOUT"
+description: "About Delfina S. Martinez Pandiani — critical scholar, artist, and co-founder of QFIN, working across critical AI and creative practice."
 ---
 
-## Bio
 
-I am **Dr. Reginald Huffington-Smythe III**, Professor of Postmodern Semiotics and Chair of the Subcommittee on Departmental Refrigerator Usage Policy at the University of Upper Boroughwick.
+{{< install media="img/delfi-sol-martinez-pandiani.png" class="profile-glitch" >}}
 
-I completed my doctorate at the University of Cambridge on the topic of *"Deconstructing the Croissant: Pastry as Colonial Metaphor in 19th Century French Literature"*, a work my supervisor described as "ambitious" and my mother described as "a waste of a perfectly good education."
 
-Before joining Upper Boroughwick, I held positions at three institutions I prefer not to name for reasons that are largely legal in nature.
+## BIO
 
-## Research Interests
 
-- Postmodern semiotics and the meaning of meaning (and whether meaning means anything)
-- Critical discourse analysis of bureaucratic language (my magnum opus: 47 pages on a parking ticket)
-- The semiotic implications of IKEA instruction manuals
-- Crossword puzzle theory (yes, this counts as research; I have published on it)
+```terminal
 
-## Education
+> COLLECTING BIO DATA FROM WEB... [OK]
+> FLATTENING CONTRADICTION AND COMPLEXITY... [OK]
+> CRAFTING A COHERENT STORY ... [OK]
+> COHERENT STORY READY
+```
 
-**PhD** — University of Cambridge, 2007  
-Thesis: *Deconstructing the Croissant: Pastry as Colonial Metaphor in 19th Century French Literature*
+Delfi (they//them) is an academic and creative based at the intersection of **critical AI studies**, **painting**, **writing**, and **code**. They are currently [Assistant Professor of Cultural Data Analysis at the University of Amsterdam](https://www.uva.nl/en/profile/m/a/d.s.c.martinez-pandiani/d.s.c.martinez-pandiani.html), appointed across the Department of Media Studies and the [Institute for Logic, Language, and Computation (ILLC)](https://illc.uva.nl/).
 
-**MA** — University of Edinburgh, 2003  
-Thesis: *The Semiotics of "Out of Office" Email Replies*
+Their research explores how abstract cultural concepts — especially **identity**, **toxicity**, and **vulnerability** — are computationally modeled in datafied environments. They audit, develop, and critique AI systems, aiming to surface new ways of thinking about power, representation, and technological change.
 
-**BA (Hons)** — University of Bristol, 2001  
-In: English Literature and Philosophy, with a minor in avoiding my supervisor
+Alongside this, Delfi maintains an active artistic practice in **painting**, **installation**, **mixed media**, and **creative writing**.
 
-## Personal
+They are co-founder of the [Queer and Feminist Informatics Network (QFIN)](https://www.qfinformatics.com/), and have been developing creative projects and workshops that combine critical theory with artistic practice — such as **adversarial drag** against facial and gender surveillance, and other interventions that play with, challenge, and attempt to break codified binaries (male/female, public/private, toxic/safe, white/colored, nature/culture).
 
-Outside of academia, I am an amateur competitive crossword solver (regional finalist, 2019 and 2022), a reluctant dog owner (the dog's name is Derrida, which I regret), and an enthusiastic but technically mediocre amateur clarinettist.
+Previously, Delfi was a post-doctoral researcher at the [Human-Centered Data-Analytics (HCDA)](https://www.cwi.nl/en/research/human-centered-data-analytics/) group at Centrum Wiskunde & Informatica (CWI) in Amsterdam. They have a Ph.D. in Computer Science and Engineering and a M.A. in Digital Humanities and Digital Knowledge from Università di Bologna (Italy), and a Bachelor's degree in Human Evolutionary Biology (summa cum laude) with a minor in Gender and Sexuality Studies from Harvard University (U.S.A.).
 
-I take my coffee black, my peer reviews anonymous, and my theoretical frameworks French.
+{{< /install >}}
+
+
+
+
+## EDUCATION
+
+```terminal
+
+> ACCESSING EDUCATION DATABASE...
+> TRADITIONAL EDUCATION RECORDS DECRYPTED [OK]
+
+```
+
+| Period | Institution | Degree | Thesis | Focus areas|
+|--------|-------------|--------|--------|-----------|
+| 2020–2024 | University of Bologna | Ph.D. Computer Science & Engineering | Mind the Gap(s): Cognitive-Inspired AI for High-Level Visual Sensemaking. Towards Abstract Concept Image Classification | Explainable AI, Knowledge Engineering, Computer Vision, Digital Humanities |
+| 2018–2020 | University of Bologna | M.A. Digital Humanities & Digital Knowledge | Semantic & Interactive Technologies for Civic Education: Ancient Classical Polychromy as a Case Study | Semantic Technologies, AR, Civic Education, Chromophobia, White Supremacy |
+| 2013–2017 | Harvard University | B.A. Human Evolutionary Biology (summa cum laude) | Reconciliation in Homo sapiens: Behavioral Perspectives on the Human Post-Conflict Period | Human Behavioral Coding, Data Analysis, Pro-sociality, Primate Behavior|
+
+[GITHUB >](https://github.com/delfimpandiani)
+
+[GOOGLE SCHOLAR >](https://scholar.google.com/citations?hl=en&user=aWasWbEAAAAJ)
+
+[LINKEDIN >](https://www.linkedin.com/in/dmartinezpandiani/)
+
+

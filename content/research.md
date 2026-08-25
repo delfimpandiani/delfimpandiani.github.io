@@ -1,47 +1,41 @@
 ---
-title: "Research"
-date: 2024-01-01
-showDate: false
-showReadingTime: false
-showAuthor: false
+title: "RESEARCH"
+description: "Critico-computational perspectives on identity, toxicity, and vulnerability in AI."
 ---
 
-## Current Projects
+My research operates at the intersection of **critical data studies**, **software auditing**, **queer and media theory**, and **anticolonial epistemologies**. I investigate how abstract, context-dependent cultural concepts—most centrally **identity**, **toxicity**, and **vulnerability**—are operationalized, classified, and flattened within datasets, models, and generative AI architectures.
 
-### The Grammar of the Vague (ERC-funded, 2023–2026)
+During my doctoral research, I investigated how pre-generative computer vision models were trained to "see" and measure abstract cultural concepts like *freedom*, *comfort*, *danger*, and *power*. This work surfaced a fundamental computational tension: the structural requirement of machine learning to reduce multifaceted, subjective human phenomena into static, discrete mathematical variables. Today, I extend this critique into the inner workings of large language and multimodal models, analyzing how this flattening operates across their latent representations and downstream platforms.
 
-This project investigates linguistic hedging in institutional communication — how organisations say things without quite saying them. We are building a corpus of 10,000 corporate strategy documents, government press releases, and university "vision statements" to map the precise topography of deliberate obscurity.
-
-*Team: Dr. Huffington-Smythe (PI), 2 postdocs, 1 very tired PhD student*
+Rather than approaching classification errors, representational harms, or hallucinations as isolated bugs to be patched, my methodology centers on **“following the glitch.”** Drawing on glitch feminism, queer failure, and critical AI studies, I treat the moments where computational taxonomies and binary schemas break down as diagnostic windows. These glitches reveal how systems operate underneath their interfaces, while pointing to tactical sites for queer refusal, epistemic opacity, and counter-hegemonic design.
 
 ---
 
-### Everyday Semiotics Lab
+## Conceptual Web
 
-An ongoing collaborative research initiative studying the meaning-making practices embedded in mundane objects and interactions: crossword puzzles, email signatures, elevator small talk, and the unspoken rules of shared office kitchens.
-
-We meet Thursdays at 4pm and always run over time.
+{{< research_map_final >}}
 
 ---
 
-### The Crossword Studies Archive
+```terminal
+> CORE INQUIRY AXES:
+> [IDENTITY] [TOXICITY] [VULNERABILITY]
+> _
+> AXIS: IDENTITY
+> THEMES: LLMS / LATENT GRAMMARS / SUBJECTIVATION
+> _
+> AXIS: TOXICITY
+> THEMES: MEMES / MODERATION / TRAUMA EXTRACTIVISM
+> _
+> AXIS: VULNERABILITY
+> THEMES: CHILDFLUENCERS / PROTECTION PARADOX / ETHICS
+> _
+> SCHOLARLY OUTPUTS & PAPERS:
+> COMPLETE CITATIONS AVAILABLE ON PUBLICATIONS PAGE
+> _
+```
 
-A personal project, arguably a research project, cataloguing the cultural history of the cryptic crossword in Britain. Funded by stubbornness and a small travel grant.
 
----
+For the complete publication list, see the [Publications](/publications) page.
 
-## Past Projects
-
-**Semiotics of the Waiting Room** (AHRC, 2014–2017)  
-Investigated the spatial and material politics of healthcare, legal, and bureaucratic waiting rooms across the UK. Produced one monograph, two postdocs, and a residual anxiety about chairs.
-
-**Pastry, Power, and the Postcolonial** (Cambridge, 2004–2007)  
-Doctoral research on representations of French cuisine in 19th-century imperial literature. Should not have taken three years, but did.
-
----
-
-## Collaborators
-
-I work with researchers across linguistics, cultural studies, and cognitive science — and occasionally, when necessary, with philosophers.
-
-If you are interested in collaboration, you are welcome to email. Response time: 3–8 weeks, or immediately if you mention crosswords.
+[GOOGLE SCHOLAR >](https://scholar.google.com/citations?hl=en&user=aWasWbEAAAAJ)

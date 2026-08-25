@@ -1,0 +1,18 @@
+{{ $files := split (.Get "media") " " }}
+{{ $caption := .Get "caption" }}
+{{ $extraClass := .Get "class" | default "" }}
+<div class="install-split">
+  <div class="install-media {{ $extraClass }}">
+    {{ range $i, $f := $files }}
+      {{ with resources.Get $f }}
+        <figure class="install-figure">
+          <img src="{{ .RelPermalink }}" alt="" loading="lazy" decoding="async">
+          {{ if and $caption (eq $i (sub (len $files) 1)) }}<figcaption>{{ $caption }}</figcaption>{{ end }}
+        </figure>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="install-text">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
