@@ -12,7 +12,7 @@ layout: "about"
 
   <header class="art-header">
     <div class="art-terminal mt-6">
-      <span class="art-prompt">&gt; COLLECTING BIO DATA FROM WEB.... [OK]</span> <br>
+      <span class="art-prompt">&gt; COLLECTING DATA FROM WEB.... [OK]</span> <br>
       <span class="art-prompt">&gt; FLATTENING CONTRADICTION AND COMPLEXITY... [OK]</span> <br>
       <span class="art-prompt">&gt; CRAFTING A <h>SUFFICIENTLY COHERENT</h> STORY... [OK]</span> <br>
       <span class="art-prompt cursor">&gt; COHERENT STORY READY_</span>
@@ -22,16 +22,13 @@ layout: "about"
 
   {{< install media="img/delfi-sol-martinez-pandiani.png" class="profile-glitch" >}}
 
-Delfi (Sol Martinez) Pandiani *[they//them]* is an academic and creative researcher studying, playing with, and breaking **codified binaries**. 
+## DELFI PANDIANI
 
+Delfi (Sol Martinez) Pandiani *[they//them]* is an academic and creative researcher studying, playing with, and breaking **codified binaries**. Their *[research](/research)* explores how abstract cultural concepts — especially **identity**, **toxicity**, and **vulnerability** — are computationally modeled in datafied environments. They audit, develop, and critique AI systems, aiming to surface new ways of thinking about power, representation, and technological change. They also maintain an *[artistic](/art)* practice, especially **painting**, **mixed media**, and **creative writing**.
 
-They are Assistant Professor of Cultural Data Analysis at the  University of Amsterdam [(UvA)](https://www.uva.nl/en/profile/m/a/d.s.c.martinez-pandiani/d.s.c.martinez-pandiani.html), appointed across the Department of Media Studies and the Institute for Logic, Language, and Computation [(ILLC)](https://illc.uva.nl/). They co-coordinate the Cultural Data & AI [(CDAI)](https://www.uva.nl/shared-content/programmas/en/masters/cultural-data-ai/cultural-data-and-artificial-intelligence.html) track of the Master's in Media Studies at the UvA, which combines critical inquiry with data science.
+Delfi is *Assistant Professor of Cultural Data Analysis* at the  University of Amsterdam [(UvA)](https://www.uva.nl/en/profile/m/a/d.s.c.martinez-pandiani/d.s.c.martinez-pandiani.html), appointed across the Department of Media Studies and the Institute for Logic, Language, and Computation [(ILLC)](https://illc.uva.nl/). They co-coordinate the *Cultural Data & AI* [(CDAI)](https://www.uva.nl/shared-content/programmas/en/masters/cultural-data-ai/cultural-data-and-artificial-intelligence.html) track of the Master's in Media Studies at the UvA, which combines critical inquiry with data science.
 
-Their *[research](/research)* explores how abstract cultural concepts — especially **identity**, **toxicity**, and **vulnerability** — are computationally modeled in datafied environments. They audit, develop, and critique AI systems, aiming to surface new ways of thinking about power, representation, and technological change. They also maintain an *[artistic](/art)* practice, especially **painting**, **mixed media**, and **creative writing**.
-
-They are co-founder of the Queer and Feminist Informatics Network [(QFIN)](https://www.qfinformatics.com/), and have been developing creative workshops that combine computational experimentation and critical theory with artistic practice — such as **adversarial drag** against facial and gender surveillance, and other interventions that play with, challenge, and attempt to break codified binaries (male/female, public/private, toxic/safe, white/colored, nature/culture). 
-
-
+They are co-founder of the *Queer and Feminist Informatics Network* [(QFIN)](https://www.qfinformatics.com/), and have been developing creative workshops that combine computational experimentation and critical theory with artistic practice — such as **adversarial drag** against facial and gender **surveillance**, and other interventions that play with, challenge, and attempt to break codified binaries (male/female, public/private, toxic/safe, white/colored, nature/culture). 
 
 Previously, Delfi was a post-doctoral researcher at the Human-Centered Data-Analytics [(HCDA)](https://www.cwi.nl/en/research/human-centered-data-analytics/) group at Centrum Wiskunde & Informatica (CWI) in Amsterdam. They have a Ph.D. in Computer Science and Engineering [(DISI)](https://disi.unibo.it/it) and a M.A. in Digital Humanities and Digital Knowledge [(DHDK)](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) from the Università di Bologna (Italy), and a Bachelor's degree in Human Evolutionary Biology [(HEB)](https://heb.fas.harvard.edu/) (summa cum laude) with a minor in Gender and Sexuality Studies from Harvard University (USA).
 

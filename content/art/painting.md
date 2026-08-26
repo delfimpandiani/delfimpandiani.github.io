@@ -6,7 +6,6 @@ title: "PAINTING"
 
 {{< install media="img/art/painting/cracky-series/crack-haha.png" >}}
 
-## Single Works
 
 - **San Giorgio Blue [Crack Haha] (2022)** — Acrylic on canvas, 40 × 30 cm., with Elisa Santos.
 - **(Non) Ho Pelli Sulla (2019)** — Acrylic on canvas, 70 × 50 cm.
