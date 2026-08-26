@@ -1,6 +1,5 @@
 ---
 title: "PAINTING"
-description: "Painting works by Delfina S. Martinez Pandiani."
 ---
 
 

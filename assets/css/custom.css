@@ -184,7 +184,7 @@ a {
   position: relative;
   transition: all 0.2s ease;
   font-family: 'Space Mono', monospace;
-  font-size: 0.85em;
+  font-size: 1em;
 }
 
 a::after {
@@ -218,7 +218,7 @@ article, .prose {
 }
 
 .prose p {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   color: var(--color-text);
 }
 
@@ -289,7 +289,7 @@ article, .prose {
 /* Author subtitle in header */
 .main-menu + div a {
   font-family: 'Space Mono', monospace;
-  font-size: 0.7rem;
+  font-size: .85rem;
   font-weight: 400;
   color: var(--color-muted) !important;
   letter-spacing: 0.05em;
@@ -2537,7 +2537,7 @@ body {
   max-width: 640px;
   aspect-ratio: 4 / 3;
   margin: 0 auto 2.5rem;
-  background: url('/img/art/painting/cracky-series/crack-haha.jpeg') center/cover no-repeat;
+  background: url('/img/crack-haha.png') center/cover no-repeat;
   filter: grayscale(30%) contrast(1.1);
   overflow: hidden;
 }
@@ -2545,7 +2545,7 @@ body {
 .gp-slice {
   position: absolute;
   inset: 0;
-  background: url('/img/art/painting/cracky-series/crack-haha.jpeg') center/cover no-repeat;
+  background: url('/img/crack-haha.png') center/cover no-repeat;
   opacity: 0;
   mix-blend-mode: screen;
   animation: slice-glitch 4s infinite;
@@ -2613,4 +2613,247 @@ body {
 .nav-link:hover {
   color: var(--color-accent-secondary);
   border-bottom-color: var(--color-accent-secondary);
+}
+
+/* ============================================
+   TYPOGRAPHY: slightly larger terminal + links
+   ============================================ */
+
+code, pre, kbd, .mono {
+  font-size: 0.95em;
+}
+
+pre::before {
+  font-size: 0.8rem;
+}
+
+a {
+  font-size: 0.95em;
+}
+
+/* ============================================
+   SIDE BANNERS
+   ============================================ */
+
+:root {
+  --banner-width: 64px;
+  --banner-opacity: 0.22;
+}
+
+.side-banner {
+  position: fixed;
+  top: 0;
+  width: var(--banner-width);
+  height: 100vh;
+  overflow: hidden;
+  z-index: 50;
+  pointer-events: none;
+  opacity: var(--banner-opacity);
+  mix-blend-mode: difference;
+}
+
+.side-banner-left {
+  left: 0;
+}
+
+.side-banner-right {
+  right: 0;
+}
+
+.banner-text-wrap {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.banner-scroll {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.banner-text {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(2rem, 4.5vh, 3.5rem);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-text);
+  position: absolute;
+  white-space: nowrap;
+  text-shadow:
+    1px 0 var(--color-accent),
+    -1px 0 var(--color-accent-secondary);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-text span {
+  display: block;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.side-banner-left .banner-scroll {
+  animation: scroll-up 10s linear infinite;
+}
+
+.side-banner-right .banner-scroll {
+  animation: scroll-up 10s linear infinite;
+}
+
+@keyframes scroll-up {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+.side-banner-left .banner-text {
+  transform: rotate(-90deg);
+}
+
+.side-banner-right .banner-text {
+  transform: rotate(90deg);
+}
+
+.banner-text::before,
+.banner-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.banner-text::before {
+  color: var(--color-accent);
+  z-index: -1;
+  animation: rgb-left 2.5s steps(2) infinite;
+}
+
+.banner-text::after {
+  color: var(--color-accent-secondary);
+  z-index: -2;
+  animation: rgb-right 2.5s steps(2) infinite;
+}
+
+.banner-glitch-layer {
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.35) 2px,
+      rgba(0,0,0,0.35) 4px
+    ),
+    linear-gradient(
+      0deg,
+      transparent 0%,
+      rgba(0,255,65,0.05) 15%,
+      transparent 35%,
+      transparent 65%,
+      rgba(255,0,110,0.05) 85%,
+      transparent 100%
+    );
+  pointer-events: none;
+  animation: glitch-scan 3s linear infinite, glitch-noise 6s ease-in-out infinite;
+}
+
+.banner-glitch-layer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--color-accent);
+  opacity: 0;
+  animation: broken-line 3s steps(1) infinite;
+}
+
+@keyframes rgb-left {
+  0%, 100% { transform: translate(0, 0); opacity: 0.7; }
+  25% { transform: translate(-2px, 1px); opacity: 1; }
+  50% { transform: translate(1px, -1px); opacity: 0.5; }
+  75% { transform: translate(-1px, -1px); opacity: 0.8; }
+}
+
+@keyframes rgb-right {
+  0%, 100% { transform: translate(0, 0); opacity: 0.7; }
+  25% { transform: translate(2px, -1px); opacity: 1; }
+  50% { transform: translate(-1px, 1px); opacity: 0.5; }
+  75% { transform: translate(1px, 1px); opacity: 0.8; }
+}
+
+@keyframes glitch-scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes glitch-noise {
+  0%, 100% { opacity: 0.55; transform: translateY(-10%); }
+  50% { opacity: 0.85; transform: translateY(10%); }
+}
+
+@keyframes broken-line {
+  0%, 100% { top: 10%; opacity: 0; }
+  8% { top: 10%; opacity: 0.7; }
+  10% { opacity: 0; }
+  18% { top: 35%; opacity: 0.6; }
+  20% { opacity: 0; }
+  28% { top: 60%; opacity: 0.8; }
+  30% { opacity: 0; }
+  38% { top: 80%; opacity: 0.5; }
+  40% { opacity: 0; }
+  48% { top: 20%; opacity: 0.7; }
+  50% { opacity: 0; }
+  58% { top: 50%; opacity: 0.9; }
+  60% { opacity: 0; }
+  68% { top: 75%; opacity: 0.6; }
+  70% { opacity: 0; }
+  78% { top: 90%; opacity: 0.4; }
+  80% { opacity: 0; }
+  88% { top: 5%; opacity: 0.8; }
+  90% { opacity: 0; }
+}
+
+/* Content must not hide under banners on desktop */
+@media (min-width: 1024px) {
+  body {
+    padding-left: calc(8rem + var(--banner-width)) !important;
+    padding-right: calc(8rem + var(--banner-width)) !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding-left: calc(3.5rem + 28px) !important;
+    padding-right: calc(3.5rem + 28px) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .side-banner {
+    display: none;
+  }
+
+  body {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner-text,
+  .banner-text::before,
+  .banner-text::after,
+  .banner-glitch-layer,
+  .banner-glitch-layer::before {
+    animation: none;
+  }
 }

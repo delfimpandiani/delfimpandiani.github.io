@@ -1,6 +1,5 @@
 ---
 title: "MIXED MEDIA"
-description: "Mixed media works by Delfi Sol Martinez Pandiani."
 ---
 
 

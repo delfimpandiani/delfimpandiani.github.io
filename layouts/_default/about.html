@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+  <article class="about-page prose dark:prose-invert">
+    {{ .Content }}
+  </article>
+{{ end }}

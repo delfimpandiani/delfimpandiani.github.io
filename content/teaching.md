@@ -8,6 +8,51 @@ description: "Teaching activities and courses by Delfi Sol (Martinez) Pandiani a
 ---
 
 ---
+# Courses
+
+---
+
+## Master's
+
+### r.M.A. Research Master's in Media Studies, University of Amsterdam
+
+- Aesthetic Resistances in the Age of Capture [2026-2027]
+- Hormones as Media(ting) Technologies Tutorial [2026-2027]
+
+
+### M.A. Media Studies Cultural Data & AI, University of Amsterdam
+
+- Cultural Data Analysis [2024-2027]
+- Embedded Research Projects [2024-2027]
+- Data Project [2024-2027]
+
+### M.Sc. Artificial Intelligence, University of Amsterdam
+
+- AI for Society [2024-2025]
+
+
+---
+
+## Bachelor's
+
+### B.A. in Gloabl Arts, Culture, and Politics (GACP), University of Amsterdam
+
+- Public AI [2024-2027]
+
+### B.A. in Media Studies (Media and Information), University of Amsterdam
+- Data-Driven Research & Digital Humanities Lab [2024-2025]
+- Coding the Humanities: B.A. in Media & Information [2024-2025]
+
+### B.Sc. in Information Science for Management, University of Bologna
+- Web Technologies [2021-2023]
+
+### B.Sc. in Biological Sciences, University of Bologna
+- Computer Skills [2021-2023]
+
+
+---
+
+---
 # Supervision
 
 ---
@@ -16,8 +61,8 @@ description: "Teaching activities and courses by Delfi Sol (Martinez) Pandiani a
 
 ### Institute of Logic, Language, and Computation, University of Amsterdam
 
-- Montanaro, C. (2028). Co-supervision with Davide Beraldo.
-- N’Daiye, B. (2029). Co-supervision with Tobias Blanke and Paula Helm.
+- Montanaro, C. (2028). Co-supervision with D. Beraldo and T. Blanke.
+- N’Daiye, B. (2029). Co-supervision with T. Blanke and P. Helm.
 
 ---
 
@@ -58,49 +103,3 @@ description: "Teaching activities and courses by Delfi Sol (Martinez) Pandiani a
 ### B.Sc. Artificial Intelligence, University of Amsterdam
 
 - Caballer, L. (2024). **Patterns of toxic symbology in internet memes: Leveraging unsupervised clustering methods for the identification of structural and semantic patterns.**
-
-
----
-
-# Courses
-
----
-
-## Master's Level Teaching
-
-### r.M.A. Research Master's in Media Studies, University of Amsterdam
-
-- Aesthetic Resistances in the Age of Capture [2026-2027]
-- Hormones as Media(ting) Technologies Tutorial [2026-2027]
-
-
-### M.A. Media Studies Cultural Data & AI, University of Amsterdam
-
-- Cultural Data Analysis [2024-2027]
-- Embedded Research Projects [2024-2027]
-- Data Project [2024-2027]
-
-### M.Sc. Artificial Intelligence, University of Amsterdam
-
-- AI for Society [2024-2025]
-
-
----
-
-## Bachelor's Level Teaching
-
-### B.A. in Gloabl Arts, Culture, and Politics (GACP), University of Amsterdam
-
-- Public AI [2024-2027]
-
-### B.A. in Media Studies (Media and Information), University of Amsterdam
-- Data-Driven Research & Digital Humanities Lab [2024-2025]
-- Coding the Humanities: B.A. in Media & Information [2024-2025]
-
-### B.Sc. in Information Science for Management, University of Bologna
-- Web Technologies [2021-2023]
-
-### B.Sc. in Biological Sciences, University of Bologna
-- Computer Skills [2021-2023]
-
-

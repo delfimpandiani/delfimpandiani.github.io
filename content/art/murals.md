@@ -1,6 +1,5 @@
 ---
 title: "MURALS"
-description: "Murals by Delfi Sol Martinez Pandiani."
 ---
 
 

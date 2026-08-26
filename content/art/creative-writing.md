@@ -1,6 +1,5 @@
 ---
 title: "CREATIVE WRITING"
-description: "Creative writing by Delfi Sol Martinez Pandiani."
 ---
 
 {{< install media=" img/art/creative_writing/navel-of-the-world/navel.png" >}}

@@ -20,7 +20,7 @@ Sosto, M., **Martinez Pandiani, D. S.**, & Hollink, L. (2026). QueerGen: How LLM
 
 **Martinez Pandiani, D. S.**. (2026). Tracing a Memetic Journey: From South American Death Flights to Free Helicopter Ride Memes. In: *AoIR Selected Papers of Internet Research*. https://doi.org/10.5210/spir.v2024i0.15240
 
-**Martinez Pandiani, D. S.**, Sang, E. T. K., & Ceolin, D. (2026). OnToxKG: An ontology-based knowledge graph of toxic symbols and their manifestations. In: Verma, H., Bozzon, A., Mauri, A., Yang, J. (eds) *Web Engineering ICWE 2025*. Lecture Notes in Computer Science, vol 15749.Springer, Cham. https://doi.org/10.1007/978-3-031-97207-2_9
+**Martinez Pandiani, D. S.**, Tjong Kim Sang, E., & Ceolin, D. (2026). OnToxKG: An ontology-based knowledge graph of toxic symbols and their manifestations. In: Verma, H., Bozzon, A., Mauri, A., Yang, J. (eds) *Web Engineering ICWE 2025*. Lecture Notes in Computer Science, vol 15749.Springer, Cham. https://doi.org/10.1007/978-3-031-97207-2_9
 
 Tjong Kim Sang, E., **Martinez Pandiani, D. S.**, & Ceolin, D. (2025). Evaluating locally run large language models on toxic meme analysis. In: Verma, H., Bozzon, A., Mauri, A., Yang, J. (eds) *Web Engineering ICWE 2025*. Lecture Notes in Computer Science, vol 15749. Springer, Cham. https://doi.org/10.1007/978-3-031-97207-2_10
 

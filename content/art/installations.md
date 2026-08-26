@@ -1,6 +1,5 @@
 ---
 title: "INSTALLATIONS"
-description: "Installation works by Delfi Sol Martinez Pandiani."
 ---
 
 

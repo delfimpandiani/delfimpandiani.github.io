@@ -3,11 +3,15 @@ title: "Broken Binaries"
 description: "Personal website of Delfi Sol Pandiani — critical AI, painting, writing, code."
 ---
 
-```terminal
-> SYSTEM STATUS: GLITCHED
-> IMAGE INTEGRITY: COMPROMISED
-> NAVIGATION: REQUIRED
-```
+
+  <header class="art-header text-left">
+    <div class="art-terminal mt-6">
+      <span class="art-prompt">&gt; IMAGE INTEGRITY... [COMPROMISED]</span> <br>
+      <span class="art-prompt">&gt; SYSTEM STATUS... [GLITCHED]</span> <br>
+      <span class="art-prompt cursor">&gt; NAVIGATION... [REQUIRED]</span>
+    </div>
+  </header> 
+
 
 <div class="glitch-portrait">
   <div class="gp-slice" style="--i:0"></div>
