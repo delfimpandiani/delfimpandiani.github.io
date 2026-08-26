@@ -11,7 +11,7 @@ description: "Critico-computational perspectives on identity, toxicity, and vuln
     </div>
   </header> 
 
-My research operates at the intersection of **critical data studies**, **software auditing**, **queer and media theory**, and **anticolonial epistemologies**. I investigate how abstract, context-dependent cultural concepts—most centrally **identity**, **toxicity**, and **vulnerability**—are operationalized, classified, and flattened within datasets, models, generative AI architectures, and platforms.
+My research operates at the intersection of **critical data studies**, **software auditing**, and **queer** and **media theory**. I investigate how abstract, context-dependent cultural concepts—most centrally **identity**, **toxicity**, and **vulnerability**—are operationalized, classified, and flattened within datasets, models, generative AI architectures, and platforms.
 
 During my doctoral research, I investigated how pre-generative computer vision models were trained to "see" and measure abstract cultural concepts like *freedom*, *comfort*, *danger*, and *power*. This work surfaced a fundamental computational tension: the structural requirement of machine learning to reduce multifaceted, subjective human phenomena into static, discrete mathematical variables. Today, I extend this critique into the inner workings of large language and multimodal models, analyzing how this flattening operates across their latent representations and downstream platforms.
 

@@ -1870,11 +1870,6 @@ hr {
     font-size: 1.75rem;
   }
 
-  .art-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
   .art-card:hover {
     transform: none;
     box-shadow: none;
@@ -1987,7 +1982,7 @@ body {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   max-width: none;
   margin: 1.5rem 0;
@@ -2704,6 +2699,9 @@ a {
 :root {
   --banner-width: 64px;
   --banner-opacity: 0.22;
+  --color-accent: #70eeec;
+  --color-accent-secondary: #e83a71;
+
 }
 
 .side-banner {
