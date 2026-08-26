@@ -22,7 +22,7 @@ layout: "about"
 
   {{< install media="img/delfi-sol-martinez-pandiani.png" class="profile-glitch" >}}
 
-## DELFI PANDIANI
+## DELFI SOL PANDIANI
 
 Delfi (Sol Martinez) Pandiani *[they//them]* is an academic and creative researcher studying, playing with, and breaking **codified binaries**. Their *[research](/research)* explores how abstract cultural concepts — especially **identity**, **toxicity**, and **vulnerability** — are computationally modeled in datafied environments. They audit, develop, and critique AI systems, aiming to surface new ways of thinking about power, representation, and technological change. They also maintain an *[artistic](/art)* practice, especially **painting**, **mixed media**, and **creative writing**.
 
