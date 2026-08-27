@@ -25,4 +25,7 @@ Rather than approaching classification errors, representational harms, or halluc
 
 ---
 
+Check out my [academic profile at the University of Amsterdam](https://www.uva.nl/en/profile/m/a/d.s.martinez-pandiani/d.s.martinez-pandiani.html).
+
+
 For the complete publication list, see the [Publications](/publications) page and/or [Google Scholar](https://scholar.google.com/citations?hl=en&user=aWasWbEAAAAJ).
