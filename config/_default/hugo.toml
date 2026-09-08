@@ -20,3 +20,7 @@ buildFuture = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[languages.en]
+[languages.en.params]
+label = "English"
